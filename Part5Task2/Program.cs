@@ -11,8 +11,8 @@ namespace Part5Task2
         static void Main(string[] args)
         {
             int number = 22;
-            int square = (int)Math.Pow(number, 2);
-            int cube = (int)Math.Pow(number, 3);
+            double square = Math.Pow(number, 2);
+            double cube = Math.Pow(number, 3);
 
             Console.WriteLine(number);
             Console.WriteLine(square);
