@@ -24,7 +24,7 @@ namespace Part11Task1
             if (number1 > number2)
                Console.WriteLine($"The first number {number1} is bigger than the second number {number2}");
             else if (number1 == number2)
-                Console.WriteLine($"The first number {number1} and the second number {number1} are equal");
+                Console.WriteLine($"The first number {number1} and the second number {number2} are equal");
             else if (number2 > number3)
                 Console.WriteLine($"The second number {number2} is bigger than the third number {number3}");
             else if (number3 > number1)
