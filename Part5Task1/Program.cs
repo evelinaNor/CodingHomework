@@ -17,9 +17,9 @@ namespace Part5Task1
             int sum3 = a * b;
             float sum4 =(float) a / b;
 
-            Console.WriteLine($"{a} / {b} = {sum}");
-            Console.WriteLine($"{a} / {b} = {sum2}");
-            Console.WriteLine($"{a} / {b} = {sum3}");
+            Console.WriteLine($"{a} + {b} = {sum}");
+            Console.WriteLine($"{a} - {b} = {sum2}");
+            Console.WriteLine($"{a} * {b} = {sum3}");
             Console.WriteLine($"{a} / {b} = {sum4}");
         }
     }
